@@ -6,27 +6,32 @@
 // Q1.
 
 // Answer
-alert("Welcome to Our Website");
+// alert("Welcome to Our Website");
 
 
 
 // Q2. 
-
+// Answer
+// document.write("Error! Please Enter a valid password");
 
 
 // Q3.
+// Answer
+// document.write("Welcome to <br> our Webpage");
 
 
 
 // Q4. 
 
 // Answer
-alert("Hello");
-alert("Shehzad");
-alert("Welcome");
+// alert("Hello");
+// alert("Shehzad");
+// alert("Welcome");
 
 
 // Q5.
+// Answer
+// alert("This is HTML and CSS Page");
 
 
 
@@ -37,8 +42,8 @@ alert("Welcome");
 // Q7. 
 
 // Answer
-var username = ("Shehzad");
-console.log(username);
+// var username = ("Shehzad");
+// console.log(username);
 
 
 
@@ -46,8 +51,8 @@ console.log(username);
 // Q8. 
 
 // Answer
-var myName = ("Shehzad Ur Rehman")
-console.log(myName);
+// var myName = ("Shehzad Ur Rehman")
+// console.log(myName);
 
 
 
@@ -55,15 +60,19 @@ console.log(myName);
 // Q9. 
 
 // Answer
-var messege;
+// var messege;
 
-messege = "Hello World"
+// messege = "Hello World"
 
-alert(messege);
+// alert(messege);
 
 
 
 // Q10.
+// Answer
+// var studentdata = "Shehzad  Developer"
+// alert(studentdata);
+
 
 
 
@@ -72,20 +81,25 @@ alert(messege);
 
 
 // Q12.
+// Answer
+// var message = "Hello, world!";
+// document.write(message);
 
 
 
 // Q13.
-
+// Answer
+// var element = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”"
+// alert(element);
 
 
 
 // Q14. 
 
 // Answer
-var age = 19;
+// var age = 19;
 
-alert("Your Age is" + age);
+// alert("Your Age is" + age);
 
 
 
@@ -99,13 +113,19 @@ alert("Your Age is" + age);
 // Q16. 
 
 // Answer
-var birthyear = 1999;
+// var birthyear = 1999;
 
-document.write("My Birth Year is " + birthyear);
+// document.write("My Birth Year is " + birthyear);
 
 
 
 // Q17.
+// Answer
+// var visitorname = prompt("Enter Your Name");
+// var productname = prompt("Enter Product Name");
+// var quantity = prompt ("Quantity");
+
+// document.write(visitorname + " is order " + quantity + " " + productname + " from Selfie Store." );
 
 
 
@@ -113,11 +133,11 @@ document.write("My Birth Year is " + birthyear);
 // Q18. 
 
 // Answer
-var shah = "Shehzad";
-var qas = "Qasim";
-var jun = "Junaid";
+// var shah = "Shehzad";
+// var qas = "Qasim";
+// var jun = "Junaid";
 
-document.write("Mr. " + shah, " Mr. " + qas, " Mr. " + jun);
+// document.write("Mr. " + shah, " Mr. " + qas, " Mr. " + jun);
 
 
 
@@ -151,15 +171,14 @@ document.write("Mr. " + shah, " Mr. " + qas, " Mr. " + jun);
 
 
 // Q21. 
-
 // Answer
-var num1 = 3
-num1 = 5
+// var num1 = 3
+// num1 = 5
 
-var num2 = 6
-num2 = 8
+// var num2 = 6
+// num2 = 8
 
-document.write(num1 + 7, num2 + 8);
+// document.write(num1 + 7, num2 + 8);
 
 
 
@@ -175,10 +194,10 @@ document.write(num1 + 7, num2 + 8);
 // Q24. 
 
 // Answer
-var ticketprice = 600
-var totalcost = ticketprice;
+// var ticketprice = 600
+// var totalcost = ticketprice;
 
-console.log(totalcost * 5);
+// console.log(totalcost * 5);
 
 
 
