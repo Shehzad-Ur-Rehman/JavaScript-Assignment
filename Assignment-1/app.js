@@ -200,6 +200,4 @@
 // console.log(totalcost * 5);
 
 
-
-
 // Q25.
