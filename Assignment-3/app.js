@@ -145,18 +145,18 @@
 
 // Q9.
 // Answer
-var number1 = +prompt ("Entre any Number ! ")
-var number2 = +prompt ("Entre any Number ! ")
-var calculate = prompt("Operation (+, -, *, /, %)")
-if (calculate === "+"){
-    alert(number1 + number2)
-} else if (calculate === "-"){
-    alert(number1 - number2)
-}else if (calculate === "*"){
-    alert(number1 * number2)
-}else if (calculate === "/"){
-    alert(number1 / number2)
-}else if (calculate === "%"){
-    alert(number1 % number2)
-}
+// var number1 = +prompt ("Entre any Number ! ")
+// var number2 = +prompt ("Entre any Number ! ")
+// var calculate = prompt("Operation (+, -, *, /, %)")
+// if (calculate === "+"){
+//     alert(number1 + number2)
+// } else if (calculate === "-"){
+//     alert(number1 - number2)
+// }else if (calculate === "*"){
+//     alert(number1 * number2)
+// }else if (calculate === "/"){
+//     alert(number1 / number2)
+// }else if (calculate === "%"){
+//     alert(number1 % number2)
+// }
 
