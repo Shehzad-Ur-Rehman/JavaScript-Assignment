@@ -21,8 +21,12 @@
 // Q3.
 // Answer
 // var fuel = prompt("How many Liters Fuel Left in the Tank")
-// if (fuel <= ("0.25litres")){
+// if (fuel <= ("0.25 litres")){
 //     alert("“Please refill the fuel in your car”")
+// }else if (fuel <= ("1 litres")){
+//     alert("“Refill the fuel in after 3KM”")
+// }else if (fuel <= ("3 litres")){
+//     alert("“Pora Din Ghom Sakte ho Bhai”")
 // };
 
 
@@ -37,8 +41,8 @@
 
 // b. 
 // var b = 82;
-// if (++b === 83){
-// alert("given condition for variable b is true");
+// if (b++ === 83){
+// alert("given condition for variable b is not true");
 // }
 
 // c. 
@@ -80,25 +84,16 @@
 
 // Q5.
 // Answer
-// var secretNumber = Math.floor(Math.random() * 10) + 1;
-// while (true) {
-// try {
-// var userGuess = parseInt(prompt("Guess the secret number (between 1 and 10):"));
-
-// if (!isNaN(userGuess) && userGuess >= 1 && userGuess <= 10) {
-//             // Check if the guess is correct
-// if (userGuess === secretNumber) {
-// console.log("Congratulations! You guessed the correct number.");
-// break;
-// } else {
-// console.log("Wrong guess. Try again.");
-// }
-// } else {
-// console.log("Please enter a valid number between 1 and 10.");
-// }
-// } catch (error) {
-// console.log("Invalid input. Please enter a valid number.");
-// }
+// var secretNumber = 3
+// var guessNumber = prompt("Guess the Secret Number from 1 to 10.")
+// if (guessNumber === ("3")){
+//     alert("“Bingo! Correct answer”.")
+// }else if (guessNumber === ("2")){
+//     alert("“Close enough to the correct answer”. ")
+// }else if (guessNumber === ("4")){
+//     alert("“Close enough to the correct answer”. ")
+// }else {
+//     alert("Sorry the Right Number is 3")
 // }
 
 
@@ -107,7 +102,7 @@
 // Q6.
 // Answer
 // var Number = prompt("Enter a number:");
-// if (!isNaN(Number) && Number % 3 === 0) {
+// if (!isNaN(Number) & Number % 3 === 0) {
 //     console.log(`${Number} is divisible by 3.`);
 // } else {
 //     console.log(`${Number} is not divisible by 3.`);
