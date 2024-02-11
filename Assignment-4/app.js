@@ -105,5 +105,5 @@
 //     Motorola, Nokia, Sony & Haier) in an array. Display the following
 //     dropdown/select menu in your browser using document.write()
 //     method:
-var Mobile = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
-console.log(Mobile,2);
+// var Mobile = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// console.log(Mobile,2);
