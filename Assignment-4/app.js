@@ -86,7 +86,6 @@
 
 
 
-
 // Q5.
 // Answer
 // var studentScores = [85, 72, 93, 64, 91, 78, 88];
@@ -99,11 +98,110 @@
 // console.log(studentScores);
 
 
+
 // Q6.
 // Answer
-// Write a program to store phone manufacturers (Apple, Samsung,
-//     Motorola, Nokia, Sony & Haier) in an array. Display the following
-//     dropdown/select menu in your browser using document.write()
-//     method:
 // var Mobile = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
-// console.log(Mobile,2);
+
+// function displaydropdown(){
+//     document.write("<select>");
+
+//     for(var i = 0; i < Mobile.length; i++){
+//         document.write("<option value= " + Mobile[i] +">" + Mobile[i] + "</option>");
+//     }
+//     document.write("</select>")
+// }
+// displaydropdown()
+
+
+
+// Q7.
+// Answer
+// var table = prompt("Enter any number")
+// var tableLength = prompt("Enter length of multiplication")
+// for (var i = 1; i <= tableLength; i++){
+//     console.log(table + " X " + i + " = " + table * i)
+// };
+
+
+
+// Q8.
+// Answer
+// document.write("Counting: ")
+// for (var i = 1; i <= 15; i++){
+//     document.write(i)
+// };
+// document.write("<br>");
+
+// document.write("Reverse counting: ");
+// for (var s = 10; s >= 1; s--){
+//     document.write(s)
+// };
+// document.write("<br>");
+
+// document.write("Even: ");
+// for (var e = 2; e <= 20; e+=2){
+//     document.write(e)
+// };
+// document.write("<br>");
+
+// document.write("Odd: ");
+// for (var o = 1; o <= 19; o+=2){
+//     document.write(o)
+// };
+// document.write("<br>");
+
+// document.write("Series: ");
+// for (var e = 2; e <= 20; e+=2){
+//     document.write(e + "k")
+// };
+
+
+
+// Q9. 
+// Answer
+// let A = ["cake", "apple pie", "cookie", "chips", "patties"]
+// let userInput = prompt("Enter the item to search: ")
+
+// if (userInput === ("cake")) {
+// console.log(userInput +" is found in the list.");
+// }else if (userInput === ("apple pie")) {
+//     console.log(userInput +" is found in the list.");
+// }else if (userInput === ("cookie")) {
+//     console.log(userInput +" is found in the list.");
+// }else if (userInput === ("chips")) {
+//     console.log(userInput +" is found in the list.");
+// }else if (userInput === ("patties")) {
+//     console.log(userInput +" is found in the list.");
+// }else {
+// console.log(userInput + " is not found in the list.");
+// };
+
+
+
+// Q10.
+// Answer
+// function toTitleCase(input) {
+//     return input.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+// }
+// let userInput = prompt("Enter a string: ");
+// let titleCaseString = toTitleCase(userInput);
+// console.log("Input in Title Case:", titleCaseString);
+
+
+
+// Q11.
+// Answer
+// let name = prompt("Enter a string: ");
+// let capital = name.toUpperCase();
+// console.log(capital);
+
+
+
+// Q12.
+// Answer
+// let stringNumber = "472";
+// let convertedNumber = Number(stringNumber);
+
+// console.log("Type of Original String: " + typeof stringNumber);
+// console.log("Type of Converted Number: " + typeof convertedNumber);
